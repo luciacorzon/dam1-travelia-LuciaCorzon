@@ -1,0 +1,151 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: #d9d9d9;
+    font-family: Heebo;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+main {
+   height: 80%;
+   
+}
+#first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    height: fit-content;
+}
+article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    background-color: white;
+    color: black; 
+    width: 200px;
+    height: 370px;
+    padding: 20px;
+    margin: 5px;
+}
+
+#second > img{
+    height: 10%;
+    width: 100%;
+}
+
+article >img {
+    border-radius: 50%;;
+}
+
+
+header {
+    background-color: #F42D59;
+    color: white;
+    font-family: Ephesis;
+    padding: 0px;
+    font-size: 2.5em;
+}
+
+footer {
+    background-color: #F42D59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#third {
+    background-color: #d9d9d9;
+
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+#freepik {
+    color: white;
+} 
+
+#freepik:hover {
+    color:#d9d9d9;
+}
+
+#third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fomrs*/
+@media screen and (max-width: 769px){
+form {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 285px;
+    padding: 20px;
+}
+
+#submit {
+    background-color: #F42D59;
+    color: white;
+    height: 20%;
+    display: flex;
+    width: 90%;
+}
+
+#submit:hover {
+    background-color: #d9d9d9;
+    color:#F42D59;
+}
+
+/*forms*/
+}
+
+@media screen and (min-width: 770px){
+    form {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 380px;
+        padding: 20px;
+    }
+    
+    #submit {
+        background-color: #F42D59;
+        color: white;
+        height: 20%;
+        display: flex;
+        width: 90%;
+    }
+    
+    #submit:hover {
+        background-color: #d9d9d9;
+        color:#F42D59;
+    }
+}

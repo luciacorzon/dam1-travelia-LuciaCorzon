@@ -46,7 +46,7 @@
             </article>
         </section>
         <section id="second">
-            <img src="/img/sassolungo-mountain-italy.jpg" alt="Mountain">
+            <img src="/img/sassolungo-mountain-italy.jpg" alt="Mountain" width="400px">
         </section>
         <section id="third">
             <form action="form.php" method="POST">
@@ -57,17 +57,22 @@
                 <label for="email"></label>
                 <input type="text" name="email" id="email" placeholder="Enter your email"/>
                 <br>
-                <label for="age">Age</label>
-                <input type="text" name="age" id="age">
+                <p>
+                    <label for="age">Age</label>
+                    <input type="text" name="age" id="age">
+                </p>
                 <br>
-                Gender <br>
-                <label><input type="radio" name="gender" value="Male">Male</label>
-                <label><input type="radio" name="gender" value="Female">Female</label>
-                <label><input type="radio" name="gender" value="Non binary">Non binary</label>
+                <p>
+                    Gender <br>
+                    <label><input type="radio" name="gender" value="Male">Male</label>
+                    <label><input type="radio" name="gender" value="Female">Female</label>
+                    <label><input type="radio" name="gender" value="Non binary">Non binary</label>
+                </p>
                 <br>
-                Comments <br>
-                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-                <input type="submit">
+                <p>Comments<br>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                </p> 
+                <input type="submit" id="submit" value="SUBMIT">
             </form>
         </section>
     </main>
@@ -81,6 +86,7 @@
             </ul>
         </nav>
         <p>Images by rowpixel.com, juicy_fish and wirestock on <a href="https://www.freepikcompany.com/es/freepik" target="_blank"><span id="freepik">Freepik</span></a></p>
+        <p>2023 Lucía Corzón</p>
     </footer>
 </body>
 </html>
